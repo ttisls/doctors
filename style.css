@@ -1,0 +1,54 @@
+﻿/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F0E6; /* Бежевый фон */
+    color: #333;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #8E9B6C; /* Зелёный заголовок */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Список врачей */
+.doctors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Карточка врача */
+.doctor-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+}
+
+.doctor-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.doctor-card p {
+    margin: 0.4rem 0;
+}
